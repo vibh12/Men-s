@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Accessory</title>
+</head>
+<body>
+	<h3> Please Tell us about Accessories YOu own.
+	Accessories are a very important instrument for appearance. Let us help You get thebest for You</h3>
+	<form method="POST">
+		{% csrf_token %}
+		{{ form.as_p }}
+		<input type="submit" value="submit">
+	</form>
+
+</body>
+</html>
